@@ -4,8 +4,10 @@
     "outDir": "./dist", // compiled js files
     "target": "ES6", // target ES version
     "module": "CommonJS", // code generated
+    "moduleResolution": "node",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
